@@ -27,8 +27,10 @@
 
 //Portfolio image layout setting
 ////////////////////////////////
-img {
+.content img,
+.about img {
   max-width: 25em;
+  border: solid white .25em;
 }
 
 .image-container {
@@ -68,14 +70,15 @@ img {
 /////////////////////
 
 .content {
-  height: 100vh;
+  height: 85vh;
+  padding: 1% 3% 3% 3%;
 }
 
 // Nav layout
 /////////////
 
 nav {
-  padding: 1%;
+  padding: .5%;
   width: 100%;
 }
 
@@ -96,4 +99,7 @@ nav li {
   min-width: 200px;
   margin: 0;
 }
+
+//About sections
+////////////////
 
