@@ -9,7 +9,7 @@ html {
 
 body{
   @extend html;
-  /*background: desaturate($teal, 50%);*/
+  background: $grey;
   text-align: center;
   position: relative;
 }
