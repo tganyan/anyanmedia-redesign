@@ -111,7 +111,13 @@ h1 {
   color: #f2f2f2; }
 
 h2 {
-  font-size: 1.2em;
+  font-size: 1.3em;
+  font-family: "Quicksand", sans-serif;
+  font-weight: bold;
+  color: #f2f2f2; }
+
+h3 {
+  font-size: 1.1em;
   font-family: "Quicksand", sans-serif;
   font-weight: bold;
   color: #f2f2f2; }
@@ -191,7 +197,6 @@ h2 {
 
 nav {
   background-color: black;
-  opacity: 0.8;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.8); }
 
 nav a {
@@ -208,6 +213,11 @@ nav a {
 .show-more {
   width: 50%;
   margin: 2% auto 0 auto; }
+
+.move-down {
+  margin: 2% 2% 0 0;
+  padding: .75%;
+  float: right; }
 
 .lp-container {
   width: 100%;
@@ -226,8 +236,9 @@ nav a {
 .overlay {
   padding-top: 12%; }
 
-img {
-  max-width: 25em; }
+.content img {
+  max-width: 25em;
+  border: solid white .25em; }
 
 .image-container {
   float: left;
@@ -251,10 +262,11 @@ img {
     display: inline-block; }
 
 .content {
-  height: 100vh; }
+  height: 85vh;
+  padding-top: 1%; }
 
 nav {
-  padding: 1%;
+  padding: .5%;
   width: 100%; }
 
 nav li {

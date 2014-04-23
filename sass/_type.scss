@@ -9,7 +9,14 @@ h1 {
 }
 
 h2 {
-  font-size: 1.2em;
+  font-size: 1.3em;
+  font-family: $quicks, sans-serif;
+  font-weight: bold;
+  color: $white;
+}
+
+h3 {
+  font-size: 1.1em;
   font-family: $quicks, sans-serif;
   font-weight: bold;
   color: $white;
