@@ -129,7 +129,7 @@ p {
 .icon-github,
 .icon-twitter {
   color: #f2f2f2;
-  font-size: 2.5em;
+  font-size: 2em;
   text-decoration: none; }
 
 .icon-github {
@@ -218,13 +218,16 @@ nav a {
   transition: color 0.5s ease; }
   .lp-container hr {
     width: 50%;
-    margin: 2% auto 2% auto; }
+    margin: 1% auto 2% auto; }
+  .lp-container h1 {
+    font-size: 1.2em;
+    margin-top: 1%; }
 
 .overlay {
   padding-top: 12%; }
 
 img {
-  max-width: 30em; }
+  max-width: 25em; }
 
 .image-container {
   float: left;

@@ -10,9 +10,14 @@
   transition: color 0.5s ease;
   hr {
     width: 50%;
-    margin: 2% auto 2% auto;
+    margin: 1% auto 2% auto;
+  }
+  h1 {
+    font-size: 1.2em;
+    margin-top: 1%;
   }
 }
+
 
 
 .overlay {
@@ -23,7 +28,7 @@
 //Portfolio image layout setting
 ////////////////////////////////
 img {
-  max-width: 30em;
+  max-width: 25em;
 }
 
 .image-container {
