@@ -1,0 +1,94 @@
+
+//Landing page content container
+///////////////////////////
+.lp-container {
+  width: 100%;
+  height: 150%;
+  margin: 0 auto;
+  background-image: url(../images/background-image.jpg);
+  background-size: cover;
+  transition: color 0.5s ease;
+  hr {
+    width: 50%;
+    margin: 2% auto 2% auto;
+  }
+}
+
+
+.overlay {
+  padding-top: 12%;
+}
+
+
+//Portfolio image layout setting
+////////////////////////////////
+img {
+  max-width: 30em;
+}
+
+.image-container {
+  float: left;
+  margin: 2% 0 0 10%;
+}
+
+//Portfolio text layout setting
+///////////////////////////////
+
+.port-text {
+  float: left;
+  margin: 5% 0 0 10%;
+  max-width: 25em;
+  p {
+    margin-bottom: 5%;
+  }
+}
+
+.port-headers {
+  margin-bottom: 1%;
+}
+
+//Links and buttons
+///////////////////
+.links {
+  width: 70%;
+  margin: 0 auto 0 auto;
+  text-align: center;
+  a {
+  display: inline-block;
+  }
+}
+
+
+//Content grid styles
+/////////////////////
+
+.content {
+  height: 100vh;
+}
+
+// Nav layout
+/////////////
+
+nav {
+  padding: 1%;
+  width: 100%;
+}
+
+nav li {
+  display: inline-block;
+  margin: 1%;
+}
+
+// Mobile settings
+//////////////////
+
+.mobile {
+  display: none;
+}
+
+.logo {
+  max-width: 20%;
+  min-width: 200px;
+  margin: 0;
+}
+

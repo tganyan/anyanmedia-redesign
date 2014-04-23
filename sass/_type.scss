@@ -1,0 +1,63 @@
+//Primary type settings
+///////////////////////
+h1 {
+  font-family: $quicks, sans-serif;
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: .5em;
+  color: $white;
+}
+
+h2 {
+  font-size: 1.2em;
+  font-family: $quicks, sans-serif;
+  font-weight: bold;
+  color: $white;
+}
+
+p {
+  font-size: 1em;
+  font-family: $quicks, sans-serif;
+  font-weight: light;
+  color: $white;
+}
+
+// icon fonts
+/////////////
+.links a {
+  transition: color 0.5s ease;
+}
+
+.icon-linkedin,
+.icon-github,
+.icon-twitter {
+  color: $white;
+  font-size: 2.5em;
+  text-decoration: none;
+}
+
+.icon-github {
+    margin: 0 1em 0 1em;
+  }
+
+// logo text @refactor this later
+/////////////////////////////////
+/*.bullet {
+  font-size: 2em;
+  color: $red;
+  margin-left: -0.1em;
+  horizontal-align: center;
+}
+
+.logo {
+  font-size: 4em;
+  margin: 0;
+}*/
+
+//Nav Links
+///////////
+
+nav a {
+  font-size: 1em;
+  font-family: $quicks, sans-serif;;
+}

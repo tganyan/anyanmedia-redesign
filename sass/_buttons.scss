@@ -1,0 +1,15 @@
+.button-color-one {
+  @extend %button;
+}
+
+.button-color-two {
+  @extend %button;
+  &:hover {
+    background: $grey;
+  };
+}
+
+.show-more {
+  width: 50%;
+  margin: 2% auto 0 auto;
+}
