@@ -1,34 +1,41 @@
 // Global Imports
 /////////////////
 
-@import "_variables.scss";
+// Dale: You don't need to reference the `_` or the file type
 
-@import "_mixins.scss";
+// common convention is to call this the `_config.scss` file.
+@import "variables";
 
-@import "_extends.scss";
+@import "mixins";
 
-@import "_reset.scss";
+@import "extends";
 
-@import "_globals.scss";
+@import "reset";
 
+// If there is a 'variables' file, what is 'globals'?
+@import "globals";
+
+
+// The use of `/**/` CSS style comments, this will output into the final CSS.
 /*@import "bourbon/_bourbon.scss";
 
 @import "neat/_neat.scss";*/
 
-@import "_type.scss";
 
-@import "_color.scss";
+@import "type";
+
+@import "color";
 
 // Module Imports
 /////////////////
 
-@import "_buttons.scss";
+@import "buttons";
 
-@import "_contact.scss";
+@import "contact";
 
-@import "_identity-items.scss";
+@import "identity-items";
 
 // Layout Imports
 /////////////////
 
-@import "_layout.scss";
+@import "layout";
