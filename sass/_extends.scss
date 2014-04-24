@@ -1,5 +1,5 @@
-//Buttons Extends
-/////////////////
+//Buttons & Links Extends
+/////////////////////////
 
 %button {
   padding: .75%;
@@ -12,4 +12,9 @@
     background: $red;
     border: solid $white .35em;
   };
+}
+
+%section {
+  position: absolute;
+  bottom: 4em;
 }
