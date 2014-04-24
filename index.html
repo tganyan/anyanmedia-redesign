@@ -2,16 +2,25 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimal-ui">
+
+  <!--
+    Your Sass should be processed to create a files called `application.css` linked in this way:
+    <link rel="stylesheet" href="public/stylesheets/application.css">
+  -->
+
   <link rel="stylesheet" href="sass/manifest.css">
+
+  <!-- I would move this to the CSS by either having the assets locally or using the @import feature of Google Fonts -->
   <link href='http://fonts.googleapis.com/css?family=Quicksand:400,700' rel='stylesheet' type='text/css'>
+
+  <!-- I would suggest pulling these ico-font libraries local -->
   <link rel="stylesheet" href="http://i.icomoon.io/public/temp/ad5ce774c5/UntitledProject1/style.css">
-  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.10.2.min.js">
-  </script>
-  <script src="scripts/main.js"></script>
   <title>Tyler Anyan | UX Designer</title>
 </head>
 <body>
+
+  <!-- I would use the <main> element here versus <article> -->
   <article class="lp-container">
     <section class="overlay">
       <figure>
@@ -235,6 +244,8 @@
   <!-- end footer -->
 
   <!-- javascript links -->
+  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.10.2.min.js"></script>
+  <script src="public/javascripts/application.js"></script>
 
 </body>
 </html>
